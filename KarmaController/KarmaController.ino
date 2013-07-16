@@ -1,3 +1,8 @@
+// v1.2
+// Karma Controller by William Wnekowicz - Likely Nothing LLC
+// This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+// To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.
+
 #include "DigiKeyboard.h"
 
 int lastReading0 = 0;
@@ -34,7 +39,7 @@ void loop() {
     DigiKeyboard.print("z"); 
   }
   
-  if((reading5 >= 620 && reading5 <= 635) && !(lastReading5 >= 620 && lastReading5 <= 635)){
+  if((reading5 >= 532 && reading5 <= 546) && !(lastReading5 >= 532 && lastReading5 <= 546)){
     DigiKeyboard.print("C");
   }
   

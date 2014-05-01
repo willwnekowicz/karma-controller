@@ -4,4 +4,4 @@ A build-it-yourself 7-button USB controller for controlling Reddit.com through R
 
 More at http://karmacontroller.com/
 
-The files here include a board layout and schematic.
+The files here include a board layout and schematic, as well as the controller's arduino code.
